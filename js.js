@@ -18,6 +18,7 @@ p1Buttuon.addEventListener("click", function() {
         if (p1Score === winnigScore) {
             gameOver = true;
             pWinner.innerHTML = "Player 1 has Won! Gratz!";
+            
         }
         p1Display.innerHTML = p1Score;
     }
