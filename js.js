@@ -57,7 +57,7 @@ function clearMatch() {
 }
 
 input.addEventListener("change", function() {
-    matchScore.innerHTML = input.value;
-    winnigScore = Number(input.value);
+    matchScore.innerHTML = this.value;
+    winnigScore = Number(this.value);
     clearMatch();
 });
