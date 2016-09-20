@@ -40,18 +40,11 @@ p2Button.addEventListener("click", function() {
 
 
 reset.addEventListener("click", function() {
-    gameOver = false;
-    p1Display.innerHTML = "0";
-    p2Display.innerHTML = "0";
-    p1Score = 0;
-    p2Score = 0;
-    pWinner.innerHTML = " ";
-    p2Display.classList.remove("p2Winner");
-    p1Display.classList.remove("p1Winner");
+ clearMatch();
 
 })
 
-function clearMatch(){
+function clearMatch() {
     gameOver = false;
     p1Display.innerHTML = "0";
     p2Display.innerHTML = "0";
