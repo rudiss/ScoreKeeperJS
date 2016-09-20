@@ -37,8 +37,8 @@ p2Button.addEventListener("click", function() {
 
 reset.addEventListener("click", function() {
     gameOver = false;
-    p1Display.innerHTML = " ";
-    p2Display.innerHTML = " ";
+    p1Display.innerHTML = "0";
+    p2Display.innerHTML = "0";
     p1Score = 0;
     p2Score = 0;
     pWinner.innerHTML = " ";
